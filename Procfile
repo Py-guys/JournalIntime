@@ -1,1 +1,0 @@
-web: gunicorn  JournalIntime.wsgi --log-file -
