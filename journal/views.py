@@ -10,7 +10,7 @@ def index(request):
     ha.txt">, <i class='fa fa-apple'></i> macOS </a>et </span>
     <span><a  href='/Haha.txt'><i class='fa fa-linux'></i>Linux</a></span></h6>
     """
-    return render(request,"Journal\index.html",{
+    return render(request,"Journal/index.html",{
         "message": message
     })
 def download_file(request):
